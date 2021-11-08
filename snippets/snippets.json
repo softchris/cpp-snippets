@@ -1,6 +1,6 @@
 {
   "cpp-vector-loop-range": {
-    "prefix": "cpp-vector-loop-iterator",
+    "prefix": "cpp-vector-loop-range",
     "body": [
        "vector<int> v;",
        "v.push_back(1);",
@@ -12,7 +12,7 @@
     "description": "in C++ 11, you can use range based for loop"
   },
   "cpp-vector-loop-for": {
-    "prefix": "cpp-vector-loop-iterator",
+    "prefix": "cpp-vector-loop-for",
     "body": [
        "vector<int> v;",
        "v.push_back(1);",
