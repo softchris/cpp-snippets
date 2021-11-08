@@ -37,6 +37,10 @@ The following commands are available:
 - `cpp-vector-loop-for`, shows how to looop through a vector using a for-loop.
 - `cpp-vector-loop-iterator`, shows how to looop through a vector using an iterator.
 - `cpp-vector-loop-range`, shows how to loop through a vector using an range based for loop.
+- `cpp-stack`, shows how to declare a stack.
+- `cpp-stack-lib`, shows how to import a stack.
+- `cpp-queue`, shows how to declare a queue.
+- `cpp-queue-lib`, shows how to import a queue.
 
 ## Release Notes
 

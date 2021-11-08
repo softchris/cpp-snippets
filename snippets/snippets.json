@@ -1,4 +1,40 @@
 {
+  "cpp-queue-lib": {
+    "prefix": "cpp-queue-lib",
+    "body": [
+      "#include <queue>"
+    ],
+    "description": "shows how to import a queue"
+  },
+  "cpp-queue": {
+    "prefix": "cpp-queue",
+    "body": [
+      "queue<int> q;",
+      "q.push(2);",
+      "q.push(3);",
+      "q.push(4);",
+      "q.back();",
+      "q.front();"
+    ],
+    "description": "shows how to declare and use a queue"
+  },
+  "cpp-stack-lib": {
+    "prefix": "cpp-stack-lib",
+    "body": [
+      "#include <stack>"
+    ],
+    "description": "imports the lib you need for a stack"
+  },
+  "cpp-stack": {
+    "prefix": "cpp-stack",
+    "body": [
+      "stack<int> s;",
+      "s.push(1);",
+      "s.push(2);",
+      "s.pop();"
+    ],
+    "description": "how to create a stack"
+  },
   "cpp-vector-loop-range": {
     "prefix": "cpp-vector-loop-range",
     "body": [
