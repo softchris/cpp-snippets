@@ -1,0 +1,168 @@
+{
+  "cpp-vector-loop-range": {
+    "prefix": "cpp-vector-loop-iterator",
+    "body": [
+       "vector<int> v;",
+       "v.push_back(1);",
+       "for (int i = 0: v)", 
+       "{",
+       "  cout << i;",
+       "}"
+    ],
+    "description": "in C++ 11, you can use range based for loop"
+  },
+  "cpp-vector-loop-for": {
+    "prefix": "cpp-vector-loop-iterator",
+    "body": [
+       "vector<int> v;",
+       "v.push_back(1);",
+       "for (int i=0; i< v.size(); i++)",
+       "{",
+       "  cout << v[i]",
+       "}"
+    ],
+    "description": "loops vector with for-loop"
+  },
+  "cpp-vector-loop-iterator": {
+    "prefix": "cpp-vector-loop-iterator",
+    "body": [
+       "vector<int> v;",
+       "v.push_back(1);",
+       "for (vector<int>::iterator itr = begin(v); itr != end(v); itr++)",
+       "{",
+       "  cout << *itr;",
+       "}"
+    ],
+    "description": "loops vector with iterator"
+  },
+  "cpp-vector": {
+    "prefix": "cpp-vector",
+    "body": [
+     "vector<$1> v;",
+     "v.push_pack(1);"
+    ],
+    "description": "declares vector"
+  },
+  "cpp-vector-lib": {
+    "prefix": "cpp-vector-lib",
+    "body": [
+     "#include <vector>"
+    ],
+    "description": "declares vector lib"
+  },
+  "cpp-function-string": {
+    "prefix": "cpp-function-string",
+    "body": [
+     "string add(string lhs, string rhs)",
+     "{",
+     "  return lhs + rhs;",
+     "}"
+    ],
+    "description": "declares string function"
+  },
+  "cpp-function-int": {
+    "prefix": "cpp-function-int",
+    "body": [
+     "int add(int lhs, int rhs)",
+     "{",
+     "  return lhs + rhs;",
+     "}"
+    ],
+    "description": "declares int function"
+  },
+  "cpp-function": {
+    "prefix": "cpp-function",
+    "body": [
+     "$1 $2()",
+     "{",
+     "  $3",
+     "  return $1;",
+     "}"
+    ],
+    "description": "declares generic function"
+  },
+  "cpp-iostream-input-line": {
+    "prefix": "cpp-iostream-input-line",
+    "body": [
+      "string line;",
+      "getline(cin, line);"
+    ],
+    "description": "collects user input line"
+  },
+  "cpp-iostream-input-multiple": {
+    "prefix": "cpp-iostream-input-multiple",
+    "body": [
+      "int arg, arg2;",
+      "cin >> arg >> 2;"
+    ],
+    "description": "collects multiple user input"
+  },
+  "cpp-iostream-input": {
+    "prefix": "cpp-iostream-input",
+    "body": [
+      "int arg;",
+      "cin >> arg;"
+    ],
+    "description": "collects user input"
+  },
+  "cpp-iostream-print": {
+    "prefix": "cpp-iostream-print",
+    "body": [
+      "cout << \"hello\";"
+    ],
+    "description": "prints string"
+  },
+  "cpp-app-sample": {
+    "prefix": "cpp-app-sample",
+    "body": [
+      "#include <iostream>",
+      "",
+      "using namespace std;",
+      "",
+      "int main()",
+      "{",
+      "  cout << \"hello\";",
+      "  return 0;",
+      "}"
+    ],
+    "description": "adds iostream lib"
+  },
+  "cpp-namespace-use": {
+    "prefix": "cpp-use-namespace",
+    "body": [
+      "using namespace $1;"
+    ],
+    "description": "adds namespace"
+  },
+  "cpp-namespace-std": {
+    "prefix": "cpp-use-namespace-std",
+    "body": [
+      "using namespace std;"
+    ],
+    "description": "adds std namespace"
+  },
+  "cpp-lib-string": {
+    "prefix": "cpp-lib-string",
+    "body": [
+      "#include <string>"
+    ],
+    "description": "adds string lib"
+  },
+  "cpp-lib-iostream": {
+    "prefix": "cpp-lib-iostream",
+    "body": [
+      "#include <iostream>"
+    ],
+    "description": "adds iostream lib"
+  },
+  "cpp-main": {
+    "prefix": "cpp-main",
+    "body": [
+      "int main()",
+      "{",
+      "  return 0;",
+      "}"
+    ],
+    "description": "adds a main method"
+  }
+}

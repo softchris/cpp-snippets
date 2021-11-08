@@ -1,0 +1,27 @@
+{
+    "name": "cpp-snippets",
+    "displayName": "cpp-snippets",
+    "description": "snippets for C++",
+    "version": "0.1.0",
+    "publisher": "chriscross",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "cpp",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/softchris/node-snippets.git"
+    },
+    "homepage": "https://github.com/softchris/node-snippets/blob/master/README.md",
+    "icon": "images/cpp_logo.png"
+}
