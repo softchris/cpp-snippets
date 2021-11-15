@@ -2,7 +2,7 @@
     "name": "cpp-snippets",
     "displayName": "C++ snippets",
     "description": "snippets for C++",
-    "version": "0.2.0",
+    "version": "1.1.1",
     "publisher": "chris-noring",
     "engines": {
         "vscode": "^1.23.0"
